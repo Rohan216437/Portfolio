@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <title>Rohan Gupta Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="./Rlogo2.png" alt="logo" width="70px" height="60px">
+                <h1>Rohan's Portfolio</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftsec">
+                <div>
+                    <h2>Hello , I am <span id="rem">Rohan Gupta</span></h2>
+                    <p>I am a dedicated </p>
+                    <span id="element"></span>
+                </div>
+            </div>
+            <div class="rightsec">
+                <img src="body img.jpg" alt="image" >
+            </div>
+        </section>
+
+        <hr>F
+
+        <section class="second">
+            <div class="aboutimg">
+                <img src="./about raw.png" alt="">
+            </div>
+            <div class="about">
+                <h3>About</h3>
+                <p>Self-motivated programmer, doing coding on consistent basis and gaining a good grip on HTML , CSS and JavaScript . Beginner in developing applications and
+                    features, trying to improve skills in programming. Innovative and willing
+                    to work hard to drive career success. Well , I may not possess professional experience in web development but I have devoted countless hours to self-study .</p>
+            </div>
+        </section>
+
+        
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Developer'],
+              typeSpeed: 50,
+              backDelay: 2500,
+              loop: true,
+
+            });
+          </script>
+          
+    </main>
+</body>
+</html>
